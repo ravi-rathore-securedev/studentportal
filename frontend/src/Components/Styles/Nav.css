@@ -1,0 +1,191 @@
+.linkstyle{
+    text-decoration: none;
+    color: white;
+    /* width: %; */
+}
+.linkstylex{
+    text-decoration: none;
+    /* background-color: aqua; */
+    color: white;
+    /* width: 25%; */
+    /* margin-left: 117vh;
+    right: 0; */
+}
+.desktop-nav{
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    /* margin-left: -10%; */
+}
+
+.navhead{
+position: fixed;
+background-color: white;
+border: 1px solid rgb(0, 0, 0);
+width: 100%;
+left: 0;
+height: 7vh;
+top: 0;
+padding-top: 1.2vh;
+padding-bottom: 2vh;
+}
+
+.nav-header{
+    height: 7.7vh;
+    width: 65%;
+    margin-left: 32vh;
+}
+
+.nav-bar{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    width: 100%;
+    height: 6vh;
+    background-color: #0d5fa7;
+    color: white;
+    font-size: small;
+    text-align: left;
+    align-items: center;
+    /* padding-left: 3.2%; */
+    /* margin-right: 50%; */
+    
+}
+.nav-left{
+    /* margin-left: -20vh; */
+}
+.Nav-right{
+    /* margin-right: -10vh; */
+    margin-left: 80vh;
+}
+
+.bar-item{
+    /* margin: 1.1%; */
+    margin: 25px;
+}
+
+.bar-itemx{
+    /* margin-left: 117vh; */
+   
+}
+
+.bar-item:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.bar-itemx:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .space{
+    width: 2px;
+  }
+
+@media screen and (max-device-width:400px) {
+    .nav-left{
+        font-size: 8px;
+        margin: 0%;
+    }
+    .Nav-right{
+        font-size: 8px;
+        margin: 0%;
+    }
+    .bar-itemx{
+        /* margin-left: 117vh; */
+        font-size: 8px;
+
+    }
+}
+/* Add these styles to your existing Nav.css or create a new CSS file */
+
+/* Hide mobile nav by default */
+.mobile-nav {
+    display: none;
+    /* background-color: aqua; */
+    width: 75%;
+  }
+  
+  /* Show mobile nav when screen size is small */
+  @media screen and (max-width: 700px) {
+    .desktop-nav {
+      display: none;
+    }
+    .mobile-nav {
+      display: block;
+    }
+    .bar-item{
+      margin-left: -8%;
+    }
+    .nav-bar{
+      width: 100%;
+    }
+  }
+  
+  /* Dropdown container */
+  .dropdown {
+    position: relative;
+    display: flex;
+  }
+  
+  .linkstyle-mob{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    /* width: %; */
+}
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    /* margin-left: 120vh; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content h1 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content h1:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  @media screen and (max-width:1100px) {
+    .nav-bar{
+      height: 8vh;
+    }
+    .nav-left{
+      width: 20%;
+      margin-left:10% ;
+    }
+    .bar-item{
+      font-size: 20px;
+    }
+    .Nav-right{
+      margin-left: 50vh;
+    
+    }
+
+  }
+  
+  @media screen and (max-width:1300px) {
+    .nav-bar{
+      height:8vh;
+    }
+  }
+  

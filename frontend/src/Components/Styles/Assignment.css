@@ -1,0 +1,160 @@
+.assignment{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 84vh;
+    /* background-color: beige; */
+    margin-top: 14vh;
+    position: fixed;
+    left: 0;
+    }
+    
+.assign-heading{
+    /* background-color: aquamarine; */
+padding-left: 43%;
+font-family: Bahnschrift;
+font-size: 36px;
+color: #3260a9;
+margin-top: 3vh;
+}
+
+.assign-container{
+    background-color:#09419b;
+    width: 75%;
+    height: 85%;
+    align-self: center;
+    display: flex;
+  flex-direction: column;
+  border-radius: 2vh;
+  box-shadow: 2px 1px 10px 2px #908989;
+}
+
+.assign-main{
+    background-color:#6ec7fa;
+    margin: 3%;
+    /* margin-top: 0; */
+    margin-bottom: 0;
+    overflow: hidden;
+    /* overflow-y: auto; */
+    align-self: center;
+    width: 96%;
+    height: 88%;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.assign-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* background-color:#0c6da4; */
+    width: 100%;
+    height: 60%;
+}
+
+.assign-label{
+    background-color: rgb(12, 133, 194);
+    align-items: center;
+    padding-left: 2%;
+    width: 90%;
+    height: 6vh;
+    display: flex;
+    margin: 5%;
+    font-size: 22px;
+    font-family: Bahnschrift;
+    font-weight: 900;
+    color: white;
+    overflow-x: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.assign-data{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    /* text-align: center; */
+    padding-left: 2%;
+    width: 96%;
+    height: 6vh;
+    display: flex;
+    margin: 5%;
+    font-size: 20px;
+    font-family: Bahnschrift;
+    font-weight: 900;
+    margin-left: 0;
+    /* justify-content: center; */
+    /* overflow: auto; */
+    /* color: white; */
+}
+
+.assign-table{
+    /* background-color: #3260a9; */
+    /* border: 1px solid #000; */
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 0;
+    height: 38vh;
+    width: 95%;
+    justify-self: center;
+    overflow: auto;
+}
+
+.assign-trow{
+     background-color: rgb(12, 133, 194);
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    /* margin: 3%; */
+    font-size: 22px;
+    font-family: Bahnschrift;
+    border: 1px solid #000;
+    font-weight: 900;
+    color: white; 
+    overflow-x: auto; 
+}
+
+.assign-throw{
+    /* border: 1px solid #000;
+    padding: 1.09%;
+    overflow-x: auto; */
+    width: 17%;
+}
+
+.assign-tdata{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    /* padding-left: 2%; */
+    font-size: 18px;
+   text-align: center;
+}
+
+.project-heading{
+    background-color: rgb(246, 168, 51);
+    width: 42vh;
+margin-left: 2.5%;
+padding-left: 1%;
+font-family: Bahnschrift;
+font-size: 30px;
+color: #ffffff;
+margin-top: 5px;
+border-radius: 3px;
+}
+
+.project-tdata{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    /* padding-left: 5%; */
+    font-size: 20px;
+    text-align: center;
+}
+
+.fee-table{
+    /* background-color: #3260a9; */
+    /* border: 1px solid #000; */
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 5%;
+    height: 38vh;
+    width: 95%;
+    justify-self: center;
+    /* overflow: auto; */
+}

@@ -1,0 +1,47 @@
+.sem-assign-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* background-color:#0c6da4; */
+    width: 100%;
+    height: 18%;
+}
+.sem-assign-label{
+    background-color: rgb(12, 133, 194);
+    align-items: center;
+  text-align: center;
+    width: 15%;
+    height: 6vh;
+    display: flex;
+    margin: 2%;
+    margin-left: 80%;
+    margin-right: 0;
+    font-size: 22px;
+    font-family: Bahnschrift;
+    font-weight: 900;
+    color: white;
+    overflow-x: auto;
+    justify-content: center;
+    text-align: center;
+}
+.sem-assign-data{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    /* text-align: center; */
+    padding-left: 2%;
+    width: 94%;
+    height: 5.5vh;
+    display: flex;
+    margin: 5%;
+    font-size: 20px;
+    font-family: Bahnschrift;
+    font-weight: 900;
+    margin-left: 0;
+    /* justify-content: center; */
+    /* overflow: auto; */
+    /* color: white; */
+}
+.sem-assign-label:hover{
+    background-color: #0c6da4;
+    color: white;
+    cursor: pointer;
+}

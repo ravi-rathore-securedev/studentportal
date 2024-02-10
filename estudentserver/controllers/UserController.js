@@ -19,7 +19,7 @@ export const StudentDetail = async (req, res) => {
                 console.log(`Warning: ${param} is undefined in the user object.`);
                 user[param] = null;
             }
-        }
+        } 
         // Insert data into the table
         const [result, fields] = await connection.execute(`
         INSERT INTO RegisterStudent (
